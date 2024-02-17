@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @Configuration
 public class HisselerConfig {
 
@@ -32,11 +35,26 @@ public class HisselerConfig {
         String currency = Jsoup.parse(pageContent).select(".currency").text();
 
         currency = currency.replaceAll("\\s+", ",");
+        String[] tokens = currency.split(",");
+        Map<String, Integer> tokenCount = new HashMap<>();
 
-        logger.info("Hisseler: \n" + currency);
+        for (String token : tokens) {
+            tokenCount.put(token, tokenCount.getOrDefault(token, 0) + 1);
+        }
+
+        StringBuilder resultBuilder = new StringBuilder();
+        for (String token : tokens) { if (tokenCount.get(token) == 1) {
+                resultBuilder.append(token).append(",");
+            }
+        }
+
+        String result = resultBuilder.toString().replaceAll(",$", "");
+
+        logger.info("Hisseler: \n" + result);
 
 
-        data.setHisseler(currency.split(","));
+        data.setHisseler(result.split(","));
+
         return data;
     }
 }

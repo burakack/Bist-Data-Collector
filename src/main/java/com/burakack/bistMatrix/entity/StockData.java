@@ -5,6 +5,7 @@ import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import java.sql.Timestamp;
 import java.util.Date;
 
 @Entity
@@ -15,7 +16,7 @@ public class StockData {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "ad", nullable = true)
+    @Column(name = "hisseAdi", nullable = true)
     private String hisseAdi;
 
     @Column(name = "fiyat", nullable = true)
@@ -31,14 +32,19 @@ public class StockData {
     private String isyatirimPotansiyel;
 
     @Column(name = "isyatirim_oneri_tarih", nullable = true)
-    private String isyatirimOneriTarih;
+    private Date isyatirimOneriTarih;
 
     @Column(name = "gunluk_degisim", nullable = true)
     private Float gunlukDegisim;
 
     @Column(name = "gunluk_degisim_yuzdesi", nullable = true)
     private Float gunlukDegisimYuzdesi;
+    @Column(name = "piyasa_degeri_defter_degeri", nullable = true)
 
+    private Float piyasaDegeriDefterDegeri;
+
+    @Column(name = "fiyat_kazanc_orani", nullable = true)
+    private Float fiyatKazancOrani;
 
     @CreationTimestamp
     @Temporal(TemporalType.TIMESTAMP)

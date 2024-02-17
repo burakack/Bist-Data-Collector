@@ -19,7 +19,7 @@ public class StockController {
 
     @GetMapping
     public StockData getStockDatawithName(@RequestParam String name) {
-        return stockDataService.findByStockName(name).orElse(null);
+        return stockDataService.findByStockName(name.toUpperCase()).orElse(null);
     }
 
     @GetMapping("/all")

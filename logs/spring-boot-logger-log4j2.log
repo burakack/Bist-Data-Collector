@@ -1,0 +1,82 @@
+2024-02-17 12:55:45,970 INFO o.s.b.StartupInfoLogger [main] Starting BistMatrixApplication using Java 17.0.2 with PID 2844 (C:\Users\burak\OneDrive\Masaüstü\bistMatrix\target\classes started by burak in C:\Users\burak\OneDrive\Masaüstü\bistMatrix)
+2024-02-17 12:55:45,997 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-02-17 12:55:46,100 INFO o.s.b.d.c.l.DockerComposeLifecycleManager [main] Using Docker Compose file 'C:\Users\burak\OneDrive\Masaüstü\bistMatrix\compose.yaml'
+2024-02-17 12:55:47,756 INFO o.s.b.d.c.l.DockerComposeLifecycleManager [main] There are already Docker Compose services running, skipping startup
+2024-02-17 12:55:49,062 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-17 12:55:49,204 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interface.
+2024-02-17 12:55:50,675 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-02-17 12:55:50,695 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-17 12:55:50,701 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-02-17 12:55:50,702 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-02-17 12:55:50,852 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-02-17 12:55:50,857 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2860 ms
+2024-02-17 12:55:51,255 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-17 12:55:51,419 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-17 12:55:51,528 INFO o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-02-17 12:55:52,204 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-17 12:55:52,269 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2024-02-17 12:55:52,666 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@671da0f9
+2024-02-17 12:55:52,670 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-02-17 12:55:52,759 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-02-17 12:55:54,414 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-17 12:55:54,498 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-17 12:55:56,301 INFO c.b.b.c.HisselerConfig [main] Hisseler: 
+A1CAP,ACSEL,ADEL,ADESE,ADGYO,AEFES,AFYON,AGESA,AGHOL,AGROT,AGYO,AHGAZ,AKBNK,AKCNS,AKENR,AKFGY,AKFYE,AKGRT,AKMGY,AKSA,AKSEN,AKSGY,AKSUE,AKYHO,ALARK,ALBRK,ALCAR,ALCTL,ALFAS,ALGYO,ALKA,ALKIM,ALMAD,ANELE,ANGEN,ANHYT,ANSGR,ARASE,ARCLK,ARDYZ,ARENA,ARSAN,ARZUM,ASELS,ASGYO,ASTOR,ASUZU,ATAGY,ATAKP,ATATP,ATEKS,ATLAS,ATSYH,AVGYO,AVHOL,AVOD,AVPGY,AVTUR,AYCES,AYDEM,AYEN,AYES,AYGAZ,AZTEK,BAGFS,BAKAB,BALAT,BANVT,BARMA,BASCM,BASGZ,BAYRK,BEGYO,BERA,BEYAZ,BFREN,BIENY,BIGCH,BIMAS,BINHO,BIOEN,BIZIM,BJKAS,BLCYT,BMSCH,BMSTL,BNTAS,BOBET,BORLS,BOSSA,BRISA,BRKO,BRKSN,BRKVY,BRLSM,BRMEN,BRSAN,BRYAT,BSOKE,BTCIM,BUCIM,BURCE,BURVA,BVSAN,BYDNR,CANTE,CASA,CATES,CCOLA,CELHA,CEMAS,CEMTS,CEOEM,CIMSA,CLEBI,CMBTN,CMENT,CONSE,COSMO,CRDFA,CRFSA,CUSAN,CVKMD,CWENE,DAGHL,DAGI,DAPGM,DARDL,DENGE,DERHL,DERIM,DESA,DESPC,DEVA,DGATE,DGGYO,DGNMO,DIRIT,DITAS,DJIST,DMRGD,DMSAS,DNISI,DOAS,DOBUR,DOCO,DOFER,DOGUB,DOHOL,DOKTA,DURDO,DYOBY,DZGYO,EBEBK,ECILC,ECZYT,EDATA,EDIP,EGEEN,EGEPO,EGGUB,EGPRO,EGSER,EKGYO,EKIZ,EKOS,EKSUN,ELITE,EMKEL,EMNIS,ENERY,ENJSA,ENKAI,ENSRI,EPLAS,ERBOS,ERCB,EREGL,ERSU,ESCAR,ESCOM,ESEN,ETILR,ETYAT,EUHOL,EUKYO,EUPWR,EUREN,EUYO,EYGYO,FADE,FENER,FLAP,FMIZP,FONET,FORMT,FORTE,FRIGO,FROTO,FZLGY,GARAN,GARFA,GEDIK,GEDZA,GENIL,GENTS,GEREL,GESAN,GIPTA,GLBMD,GLCVY,GLDTR,GLRYH,GLYHO,GMSTR,GMTAS,GOKNR,GOLTS,GOODY,GOZDE,GRNYO,GRSEL,GRTRK,GSDDE,GSDHO,GSRAY,GUBRF,GWIND,GZNMI,HALKB,HATEK,HATSN,HDFGS,HEDEF,HEKTS,HKTM,HLGYO,HTTBT,HUBVC,HUNER,HURGZ,ICBCT,ICUGS,IDEAS,IDGYO,IEYHO,IHAAS,IHEVA,IHGZT,IHLAS,IHLGM,IHYAY,IMASM,INDES,INFO,INGRM,INTEM,INVEO,INVES,IPEKE,ISATR,ISBIR,ISBTR,ISCTR,ISDMR,ISFIN,ISGSY,ISGYO,ISIST,ISKPL,ISKUR,ISMEN,ISSEN,ISYAT,IZENR,IZFAS,IZINV,IZMDC,JANTS,KAPLM,KAREL,KARSN,KARTN,KARYE,KATMR,KAYSE,KBORU,KCAER,KCHOL,KENT,KERVN,KERVT,KFEIN,KGYO,KIMMR,KLGYO,KLKIM,KLMSN,KLNMA,KLRHO,KLSER,KLSYN,KMPUR,KNFRT,KONKA,KONTR,KONYA,KOPOL,KORDS,KOZAA,KOZAL,KRDMA,KRDMB,KRDMD,KRGYO,KRONT,KRPLS,KRSTL,KRTEK,KRVGD,KSTUR,KTLEV,KTSKR,KUTPO,KUVVA,KUYAS,KZBGY,KZGYO,LIDER,LIDFA,LINK,LKMNH,LOGO,LRSHO,LUKSK,MAALT,MACKO,MAGEN,MAKIM,MAKTK,MANAS,MARBL,MARKA,MARTI,MAVI,MEDTR,MEGMT,MEKAG,MEPET,MERCN,MERIT,MERKO,METRO,METUR,MGROS,MHRGY,MIATK,MIPAZ,MMCAS,MNDRS,MNDTR,MOBTL,MPARK,MRGYO,MRSHL,MSGYO,MTRKS,MTRYO,MZHLD,NATEN,NETAS,NIBAS,NTGAZ,NTHOL,NUGYO,NUHCM,OBASE,ODAS,OFSYM,ONCSM,ORCAY,ORGE,ORMA,OSMEN,OSTIM,OTKAR,OTTO,OYAKC,OYAYO,OYLUM,OYYAT,OZGYO,OZRDN,OZSUB,PAGYO,PAMEL,PAPIL,PARSN,PASEU,PCILT,PEGYO,PEKGY,PENGD,PENTA,PETKM,PETUN,PGSUS,PINSU,PKART,PKENT,PLTUR,PNLSN,PNSUT,POLHO,POLTK,PRDGS,PRKAB,PRKME,PRZMA,PSGYO,QNBFB,QNBFL,QUAGR,RALYH,RAYSG,REEDR,RNPOL,RODRG,RTALB,RUBNS,RYGYO,RYSAS,SAFKR,SAHOL,SAMAT,SANEL,SANFM,SANKO,SARKY,SASA,SAYAS,SDTTR,SEGYO,SEKFK,SEKUR,SELEC,SELGD,SELVA,SEYKM,SILVR,SISE,SKBNK,SKTAS,SKYMD,SMART,SMRTG,SNGYO,SNICA,SNKRN,SNPAM,SODSN,SOKE,SOKM,SONME,SRVGY,SUMAS,SUNTK,SURGY,SUWEN,TABGD,TARKM,TATEN,TATGD,TAVHL,TBORG,TCELL,TDGYO,TEKTU,TERA,TETMT,TEZOL,TGSAS,THYAO,TKFEN,TKNSA,TLMAN,TMPOL,TMSN,TNZTP,TOASO,TRCAS,TRGYO,TRILC,TSGYO,TSKB,TSPOR,TTKOM,TTRAK,TUCLK,TUKAS,TUPRS,TUREX,TURGG,TURSG,UFUK,ULAS,ULKER,ULUFA,ULUSE,ULUUN,UMPAS,UNLU,USAK,USDTR,UZERB,VAKBN,VAKFN,VAKKO,VANGD,VBTYZ,VERTU,VERUS,VESBE,VESTL,VKFYO,VKGYO,VKING,VRGYO,X030S,X100S,XBANA,XBANK,XBLSM,XELKT,XFINK,XGIDA,XGMYO,XHARZ,XHOLD,XILTM,XINSA,XKAGT,XKMYA,XKOBI,XKURY,XMADN,XMANA,XMESY,XSADA,XSANK,XSANT,XSBAL,XSBUR,XSDNZ,XSGRT,XSIST,XSIZM,XSKAY,XSKOC,XSKON,XSPOR,XSTKR,XTAST,XTCRT,XTEKS,XTM25,XTMTU,XTRZM,XTUMY,XU030,XU050,XU100,XUHIZ,XULAS,XUMAL,XUSIN,XUSRD,XUTEK,XUTUM,XYLDZ,XYORT,XYUZO,YAPRK,YATAS,YAYLA,YBTAS,YEOTK,YESIL,YGGYO,YGYO,YKBNK,YKSLN,YONGA,YUNSA,YYAPI,YYLGD,Z30EA,Z30KE,Z30KP,ZEDUR,ZELOT,ZGOLD,ZOREN,ZPBDL,ZPLIB,ZPT10,ZPX30,ZRE20,ZRGYO,ZTM15
+2024-02-17 12:55:56,842 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-17 12:55:57,432 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-02-17 12:55:57,469 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-02-17 12:55:57,493 INFO o.s.b.StartupInfoLogger [main] Started BistMatrixApplication in 12.132 seconds (process running for 13.028)
+2024-02-17 12:56:26,695 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-17 12:56:26,695 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-02-17 12:56:26,698 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2024-02-17 12:58:17,659 ERROR c.b.b.e.DataThreads [pool-2-thread-143] Error in data threadhttps://www.isyatirim.com.tr/tr-tr/analiz/hisse/Sayfalar/sirket-karti.aspx?hisse=DMRGD
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "https://www.isyatirim.com.tr/_layouts/15/Isyatirim.Website/Common/Data.aspx/OneEndeks": Tag mismatch!
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:905) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:885) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:781) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:395) ~[spring-web-6.1.2.jar:6.1.2]
+	at com.burakack.bistMatrix.entity.DataThreads.lambda$run$0(DataThreads.java:98) ~[classes/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) [?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: javax.net.ssl.SSLException: Tag mismatch!
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:133) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:371) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:314) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:309) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:123) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1500) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1415) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:450) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:421) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:580) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142) ~[?:?]
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:879) ~[spring-web-6.1.2.jar:6.1.2]
+	... 9 more
+Caused by: javax.crypto.AEADBadTagException: Tag mismatch!
+	at java.base/com.sun.crypto.provider.GaloisCounterMode$GCMDecrypt.doFinal(GaloisCounterMode.java:1486) ~[?:?]
+	at java.base/com.sun.crypto.provider.GaloisCounterMode.engineDoFinal(GaloisCounterMode.java:447) ~[?:?]
+	at java.base/javax.crypto.Cipher.doFinal(Cipher.java:2500) ~[?:?]
+	at java.base/sun.security.ssl.SSLCipher$T12GcmReadCipherGenerator$GcmReadCipher.decrypt(SSLCipher.java:1659) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:260) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1500) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1415) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:450) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:421) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:580) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:183) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142) ~[?:?]
+	at org.springframework.http.client.SimpleClientHttpRequest.executeInternal(SimpleClientHttpRequest.java:79) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:70) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66) ~[spring-web-6.1.2.jar:6.1.2]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:879) ~[spring-web-6.1.2.jar:6.1.2]
+	... 9 more
